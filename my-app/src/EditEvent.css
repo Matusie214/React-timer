@@ -1,0 +1,32 @@
+.edit-event__input-group input{
+    border: 0;
+    padding: 5;
+    width: 70%;
+}
+.edit-event button {
+    background: transparent;
+    border: solid  3px #fff;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+.edit-event{
+    background: orange;
+    padding: 10px;
+    color: #fff;
+    height: fit-content;
+    font-size: 1.4rem;
+}
+.edit-event__input-group{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.edit-event button:disabled{
+    opacity: 0.4;
+}

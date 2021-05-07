@@ -1,0 +1,19 @@
+.countDown{
+    background: linear-gradient(#368af4,#3181f2);
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 25px;
+    height: fit-content;
+}
+.countdown_icons{
+    cursor: pointer;
+    display: none;
+    float: right;
+    font-size: 1.2rem;
+}
+.countDown:hover .countdown_icons{
+    display: block;
+}
+.countDown:hover .overlay span{
+    display: block;
+}
